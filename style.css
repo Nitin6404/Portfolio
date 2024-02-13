@@ -37,6 +37,10 @@ nav{
     margin: 15px;
 }
 
+.right svg{
+    display: none;
+}
+
 .left{
     margin: 15px;
 }
@@ -261,4 +265,38 @@ nav{
     padding: 20px;
     border-radius: 5px;
     margin: 20px;
+}
+
+#mobile-menu-btn img{
+    height: 32px;
+    width: 32px;
+    border-radius: 6px;
+}
+
+@media only screen and (max-width: 750px) {
+    .right {
+        position: relative;
+    }
+
+    .right svg{
+        display: block;
+    }
+
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px; /* Adjust the top position based on your design */
+        right: 0;
+        background-color: hsl(198, 93%, 40%);
+        border-radius: 7px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .nav-links a {
+        display: block;
+        padding: 10px;
+        text-align: center;
+        text-decoration: none;
+        color: white;
+    }
 }
