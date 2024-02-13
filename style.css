@@ -77,6 +77,12 @@ nav{
     background-color: hsl(205, 54%, 53%);
 }
 
+.skill-svgs{
+    height: 50px;
+    width: 50px;
+    margin-top: 10px;
+}
+
 #pp{
     height: 350px;
     width: 350px;
