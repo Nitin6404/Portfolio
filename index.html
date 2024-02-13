@@ -9,12 +9,18 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@1,300;1,400&display=swap"
         rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Victor+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <nav>
-            <div class="left">Nitin's Portfolio</div>
+            <div class="left"><a id="nitinfolio" href="#">Nitin's Portfolio</a></div>
             <div class="right">
                 <a class="nav-items" href="#home">Home</a>
                 <a class="nav-items" href="#about">About</a>
@@ -27,13 +33,18 @@
 
     <div id="home">
         <div class="leftSection">
-           <a> Hii, I'm <div class="name">Nitin Chaudhary......</div></a>
+           <a> Hii, I'm 
+            <div class="name"><h2>NITIN CHAUDHARY</h2></div>
+            </a>
+            <span id="element"></span>
             <div>
                You are visiting my <div class="portfolio">Portfolio......</div>
             </div>
-            <span id="element"></span>
+            <a href="#contact-me">
+                <button id="contact-btn" onclick="">Contact Me</button>
+            </a>
         </div>
-        
+
         <div class="rightSection">
             <img src="./assests/pp3.png" id="pp" alt="">
         </div>

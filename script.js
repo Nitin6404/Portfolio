@@ -1,14 +1,5 @@
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
-
 
 var typed = new Typed('#element', {
-    strings: ['<i>C++</i> Developer', '&amp; Ful Stack Dev'],
+    strings: ['<i>A Passionate Full Stack Dev</i>', '<i>&amp; Open Source Contributor</i>'],
     typeSpeed: 50,
   });

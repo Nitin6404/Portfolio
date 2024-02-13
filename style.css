@@ -3,12 +3,34 @@
     padding: 0;
 }
 
+*{
+    font-weight: 300;
+}
+
+body{
+    background-color: #fff;
+    padding-top: 70px;
+    font-family: monospace;
+    font-size: 19px;
+}
+
+#nitinfolio{
+    text-decoration: none;
+    color: #000;
+}
+
 nav{
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: space-between;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     width: 100%;
+    background-color: hsl(198, 93%, 40%);
+    color: #000;
+    z-index: 1000;
 }
 
 .right{
@@ -21,6 +43,43 @@ nav{
 
 .nav-items{
     text-decoration: none;
-    color: black;
-    padding: 20px;
+    padding: 15px;
+    color: #000;
 }
+
+.nav-items:hover{
+    color: hsl(198, 93%, 80%);
+}
+
+#home{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 100px; 
+}
+
+#home h2{
+    color: #000;
+    font-weight: 600;
+}
+
+#contact-btn{
+    color: white;
+    background-color: hsl(205, 54%, 48%);
+    font-size: large;
+    padding: 7px;
+    margin-top: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+#contact-btn:hover{
+    background-color: hsl(205, 54%, 53%);
+}
+
+#pp{
+    height: 350px;
+    width: 350px;
+    border-radius: 50%;
+}
+
