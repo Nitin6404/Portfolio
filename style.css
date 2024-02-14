@@ -67,6 +67,49 @@ nav{
     font-weight: 600;
 }
 
+
+
+#projects {
+    text-align: center;
+    margin-bottom: 50px;
+    padding: 50px; /* Add padding to separate from other sections */
+}
+
+
+#all-projects{
+    display: flex;
+    justify-content: space-around;
+}
+
+#all-projects p{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+#topic-project{
+    font-family: nato 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 50px;
+
+}
+
+#p1, #p2, #p3 {
+    flex: 0 0 30%; 
+    margin: 10px;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .2);
+    text-align: center;
+    background-color: hsl(205, 54%, 70%);
+}
+
+#p1 img, #p2 img, #p3 img {
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+}
+
 #contact-btn{
     color: white;
     background-color: hsl(205, 54%, 48%);
@@ -171,49 +214,6 @@ nav{
 
 #input-btn:hover{
     background-color: hsl(205, 54%, 53%);
-}
-
-#projects{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-}
-
-#topic-project{
-    margin-bottom: 50px;
-    text-align: center;
-    grid-column-start: 1;
-    grid-column-end: 4;
-}
-
-#p1{
-    height: 250px;
-    grid-column-start: 1;
-    grid-column-end: 2;
-    margin: 10px;
-    margin-left: 20px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-
-#p2{
-    height: 250px;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
-}
-
-#p3{
-    height: 250px;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    margin: 10px;
-    padding: 10px;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
 }
 
 #services{
