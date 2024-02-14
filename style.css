@@ -264,7 +264,7 @@ nav{
 
 #about-para{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-;
     margin-bottom: 50px;
 }
 
@@ -349,8 +349,15 @@ nav{
     }
 
     /* About section responsiveness */
-    #about-me, #interest {
-        width: 35vw;
-    }  
 
+    #about-para {
+        justify-content: space-evenly;
+    }
+
+    #about-me, #interest {
+        max-height: 400px; /* Set a maximum height for the About Me section */
+        overflow-y: auto; /* Enable vertical scrolling */
+        padding-right: 10px; /* Add some space for the scrollbar */
+    }
+    
 }
