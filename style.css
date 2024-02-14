@@ -326,8 +326,24 @@ nav{
 }
 
 @media only screen and (max-width: 500px) {
+    #home {
+        display: flex;
+        flex-direction: column-reverse;
+        /* justify-content: space-evenly; */
+    }
+
+    .leftSection {
+        width: 70vw;
+    }
+
     #pp {
+        margin-top: -40px;
         height: 250px;
         width: 250px;
+        margin-bottom: 40px;
+    }
+
+    #contact-btn{
+        margin-top: 30px;
     }
 }
