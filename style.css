@@ -326,10 +326,11 @@ nav{
 }
 
 @media only screen and (max-width: 500px) {
+    /* Home Section responsiveness  */
     #home {
+        text-align: center;
         display: flex;
         flex-direction: column-reverse;
-        /* justify-content: space-evenly; */
     }
 
     .leftSection {
@@ -346,4 +347,10 @@ nav{
     #contact-btn{
         margin-top: 30px;
     }
+
+    /* About section responsiveness */
+    #about-me, #interest {
+        width: 35vw;
+    }  
+
 }
