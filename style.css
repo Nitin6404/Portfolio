@@ -361,11 +361,6 @@ nav{
         justify-content: space-evenly;
     }
 
-    #about-me, #interest {
-        max-height: 400px; /* Set a maximum height for the About Me section */
-        overflow-y: auto; /* Enable vertical scrolling */
-        padding-right: 10px; /* Add some space for the scrollbar */
-    }
 
     #about-me,
     #interest {
