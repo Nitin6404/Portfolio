@@ -350,6 +350,13 @@ nav{
 
     /* About section responsiveness */
 
+    #about-me, #interest {
+        max-width: 800px; /* Set the desired maximum width for the container */
+        margin: 0 auto; /* Center the container horizontally */
+        padding: 20px; /* Add padding for better readability */
+    }
+    
+
     #about-para {
         justify-content: space-evenly;
     }
