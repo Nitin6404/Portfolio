@@ -246,6 +246,7 @@ nav{
 #intro{
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #about-para{
