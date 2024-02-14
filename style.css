@@ -57,7 +57,7 @@ nav{
 
 #home{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
     padding: 100px; 
 }
@@ -67,7 +67,11 @@ nav{
     font-weight: 600;
 }
 
+.leftSection{
+    width: 50%;
+    text-align: center;
 
+}
 
 #projects {
     text-align: center;
