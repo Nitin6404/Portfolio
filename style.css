@@ -157,6 +157,17 @@ nav{
 
 }
 
+#email, #phone{
+    display: flex;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#email *, #phone *{
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
 #contact-inputs{
     display: grid;
     grid-template-columns: 1fr 1fr;
