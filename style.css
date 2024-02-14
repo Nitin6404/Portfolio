@@ -232,8 +232,10 @@ nav{
 }
 
 #web-dev label{
+    color: #000;
     float: left;
     text-shadow: 0 2px 4px rgba(0,0,0,.2);
+    cursor: pointer;
 }
 
 #web-dev img{
