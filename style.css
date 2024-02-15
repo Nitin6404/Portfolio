@@ -274,7 +274,7 @@ nav{
 
 #about-para{
     display: flex;
-    justify-content: space-;
+    justify-content: space-evenly;
     margin-bottom: 50px;
 }
 
@@ -410,7 +410,6 @@ nav{
         float: left;
         text-shadow: 0 2px 4px rgba(0, 0, 0, .2);
         cursor: pointer;
-        text-decoration: none; /* Add this line to remove the underline */
     }
     
     
@@ -429,13 +428,10 @@ nav{
     }
 
     #contact-me h2{
-        margin-top: 30px;
         text-align: center;
     }
 
     #contact-details{
-        display: flex;
-        flex-direction: column;
         margin: 20px;
     }
 
