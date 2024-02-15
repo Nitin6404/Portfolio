@@ -140,6 +140,10 @@ nav{
     border-radius: 50%;
 }
 
+#contact-me{
+    margin-bottom: 50px;
+}
+
 #contact-me h2{
     margin-top: 30px;
     text-align: center;
@@ -165,6 +169,7 @@ nav{
     display: flex;
     text-align: center;
     margin-top: 10px;
+    text-decoration: none;
 }
 
 #email *, #phone *{
@@ -192,6 +197,11 @@ nav{
     border-radius: 5px;
     box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
     font-size: medium;
+}
+
+#email-para{
+    text-decoration: none;
+    color: #000;
 }
 
 #input-subject{
@@ -416,6 +426,31 @@ nav{
 
     #p1, #p2, #p3{
         margin-bottom: 20px;
+    }
+
+    #contact-me h2{
+        margin-top: 30px;
+        text-align: center;
+    }
+
+    #contact-details{
+        display: flex;
+        flex-direction: column;
+        margin: 20px;
+    }
+
+    #contact-items {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+
+    #contact-inputs{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #input-name, #input-email{
+        width: 35%;
     }
     
 }
